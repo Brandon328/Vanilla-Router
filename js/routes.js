@@ -22,5 +22,11 @@ const PATHS = {
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum harum aliquam reiciendis dignissimos? Perferendis consequuntur vitae fugiat fuga neque ipsum?</p>
             <img src="https://source.unsplash.com/random/600x500" alt="Random Image">
         `,
+    },
+    error: {
+        path: "/error",
+        template: `
+            <h1>ERROR 404</h1>
+        `
     }
 }

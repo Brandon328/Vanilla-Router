@@ -17,7 +17,7 @@ class Router {
     initRouter() {
         const {
             location: {
-                pathname = "/"
+                pathname = "/",
             }
         } = window;
         const URI = pathname === "/" ? "home" : pathname.replace("/", "");
@@ -30,11 +30,13 @@ class Router {
      * @return {void}.
      */
     load(page = "home") {
+        if (page == "") page = "home";
         const { paths } = this;
         const { path, template } = paths[page] || paths.error;
         const $CONTAINER = document.querySelector("#content");
         $CONTAINER.innerHTML = template;
-        window.history.pushState({}, "Genial", path);
+        // window.history.pushState({}, "Genial", path);
+        window.location.hash = path;
+        // console.log(window.history);
     }
-
 }
