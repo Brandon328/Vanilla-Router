@@ -1,11 +1,6 @@
-# Vanilla Router [SPA]
-
-![](https://img.shields.io/github/license/alexcamachogz/Vanilla-Router?style=for-the-badge)
-![](https://img.shields.io/github/stars/alexcamachogz/Vanilla-Router?style=for-the-badge)
-![](https://img.shields.io/github/forks/alexcamachogz/Vanilla-Router?style=for-the-badge)
-
+# Vanilla Router with location.hash [SPA]
 ## ✍🏻 Description
-Setting up a router with vanilla javascript. The purpose of this small project is to understand how the frameworks routers work.
+Adapté el código de creación de un router con vanilla js de [Alejandra Camacho](https://dev.to/alexcamachogz/creando-un-router-con-vanilla-javascript-27pl) usando el location.hash en vez del location.pathname como originalmente se hacía. Esto lo hice con el motivo de que se presentaba un error cuando se navegaba desde la URL del navegador.
 
 ## 🚀 Getting Started
 Only you need download the project and open index.html with a local server. That's it.
